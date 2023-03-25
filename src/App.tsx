@@ -1,9 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import styled from "styled-components";
-import { Checkbox } from "./components/Checkbox";
-import { Button } from "./components/Button";
-import { Cat } from "./components/Cat";
-import { Loader } from "./components/Loader";
+import { Checkbox, Cat, Button, Loader } from "./components";
 
 const AppWrapper = styled.div`
   max-width: 800px;
